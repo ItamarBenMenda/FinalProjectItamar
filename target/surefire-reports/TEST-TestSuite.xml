@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="667.479" tests="26" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Ben Menda\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Ben Menda\eclipse-workspace\FinalProjectAutomationMVN\target\test-classes;C:\Users\Ben Menda\eclipse-workspace\FinalProjectAutomationMVN\target\classes;C:\Users\Ben Menda\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;C:\Users\Ben Menda\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Ben Menda\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Ben Menda\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Ben Menda\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Ben Menda\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Ben Menda\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Ben Menda\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Ben Menda\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Ben Menda\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Ben Menda\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Ben Menda\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Ben Menda\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Ben Menda\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Ben Menda\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Ben Menda\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Ben Menda\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Ben Menda\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Ben Menda\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Ben Menda\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Ben Menda\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Ben Menda\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\Ben Menda\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\Ben Menda\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Ben Menda\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Ben Menda\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Ben Menda\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Ben Menda\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Ben Menda\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Ben Menda\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Ben Menda\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Ben Menda\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\Ben Menda\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Ben Menda\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\Ben Menda\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\Ben Menda\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Ben Menda\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Ben Menda\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\Ben Menda\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Ben Menda\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Ben Menda\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Ben Menda\.m2\repository\io\github\bonigarcia\webdrivermanager\4.3.1\webdrivermanager-4.3.1.jar;C:\Users\Ben Menda\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Ben Menda\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\Ben Menda\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Ben Menda\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Ben Menda\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Ben Menda\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Ben Menda\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\Ben Menda\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\Ben Menda\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Ben Menda\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;C:\Users\Ben Menda\.m2\repository\com\github\automatedowl\allure-environment-writer\1.0.0\allure-environment-writer-1.0.0.jar;C:\Users\Ben Menda\.m2\repository\io\qameta\allure\allure-testng\2.13.8\allure-testng-2.13.8.jar;C:\Users\Ben Menda\.m2\repository\io\qameta\allure\allure-java-commons\2.13.8\allure-java-commons-2.13.8.jar;C:\Users\Ben Menda\.m2\repository\io\qameta\allure\allure-model\2.13.8\allure-model-2.13.8.jar;C:\Users\Ben Menda\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.3\jackson-databind-2.11.3.jar;C:\Users\Ben Menda\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.3\jackson-annotations-2.11.3.jar;C:\Users\Ben Menda\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.3\jackson-core-2.11.3.jar;C:\Users\Ben Menda\.m2\repository\org\apache\tika\tika-core\1.24.1\tika-core-1.24.1.jar;C:\Users\Ben Menda\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Jerusalem"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="allure.link.issue.pattern" value="https://example.org/issue/{}"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\OpenJDK\openjdk-8u282-b08\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Ben Menda\AppData\Local\Temp\surefire6811194087231940755\surefirebooter433952673454507604.jar C:\Users\Ben Menda\AppData\Local\Temp\surefire6811194087231940755 2021-05-08T23-41-31_831-jvmRun1 surefire2020096503558240094tmp surefire_04478458847112008280tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Ben Menda\eclipse-workspace\FinalProjectAutomationMVN\target\test-classes;C:\Users\Ben Menda\eclipse-workspace\FinalProjectAutomationMVN\target\classes;C:\Users\Ben Menda\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;C:\Users\Ben Menda\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Ben Menda\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Ben Menda\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Ben Menda\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Ben Menda\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Ben Menda\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Ben Menda\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Ben Menda\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Ben Menda\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Ben Menda\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Ben Menda\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Ben Menda\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Ben Menda\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Ben Menda\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Ben Menda\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Ben Menda\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Ben Menda\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Ben Menda\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Ben Menda\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Ben Menda\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Ben Menda\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\Ben Menda\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\Ben Menda\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Ben Menda\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Ben Menda\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Ben Menda\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Ben Menda\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Ben Menda\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Ben Menda\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Ben Menda\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Ben Menda\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\Ben Menda\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Ben Menda\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\Ben Menda\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\Ben Menda\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Ben Menda\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Ben Menda\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\Ben Menda\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Ben Menda\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Ben Menda\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Ben Menda\.m2\repository\io\github\bonigarcia\webdrivermanager\4.3.1\webdrivermanager-4.3.1.jar;C:\Users\Ben Menda\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Ben Menda\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\Ben Menda\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Ben Menda\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Ben Menda\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Ben Menda\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Ben Menda\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\Ben Menda\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\Ben Menda\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Ben Menda\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;C:\Users\Ben Menda\.m2\repository\com\github\automatedowl\allure-environment-writer\1.0.0\allure-environment-writer-1.0.0.jar;C:\Users\Ben Menda\.m2\repository\io\qameta\allure\allure-testng\2.13.8\allure-testng-2.13.8.jar;C:\Users\Ben Menda\.m2\repository\io\qameta\allure\allure-java-commons\2.13.8\allure-java-commons-2.13.8.jar;C:\Users\Ben Menda\.m2\repository\io\qameta\allure\allure-model\2.13.8\allure-model-2.13.8.jar;C:\Users\Ben Menda\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.3\jackson-databind-2.11.3.jar;C:\Users\Ben Menda\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.3\jackson-annotations-2.11.3.jar;C:\Users\Ben Menda\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.3\jackson-core-2.11.3.jar;C:\Users\Ben Menda\.m2\repository\org\apache\tika\tika-core\1.24.1\tika-core-1.24.1.jar;C:\Users\Ben Menda\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;"/>
+    <property name="allure.results.directory" value="C:\Users\Ben Menda\eclipse-workspace\FinalProjectAutomationMVN/target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Ben Menda"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\OpenJDK\openjdk-8u282-b08\jre"/>
+    <property name="testng.dtd.http" value="true"/>
+    <property name="basedir" value="C:\Users\Ben Menda\eclipse-workspace\FinalProjectAutomationMVN"/>
+    <property name="allure.link.tms.pattern" value="https://example.org/tms/{}"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Ben Menda\AppData\Local\Temp\surefire6811194087231940755\surefirebooter433952673454507604.jar;C:\Users\Ben Menda\.m2\repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\OpenJDK\openjdk-8u282-b08\jre\lib\resources.jar;C:\Program Files\OpenJDK\openjdk-8u282-b08\jre\lib\rt.jar;C:\Program Files\OpenJDK\openjdk-8u282-b08\jre\lib\sunrsasign.jar;C:\Program Files\OpenJDK\openjdk-8u282-b08\jre\lib\jsse.jar;C:\Program Files\OpenJDK\openjdk-8u282-b08\jre\lib\jce.jar;C:\Program Files\OpenJDK\openjdk-8u282-b08\jre\lib\charsets.jar;C:\Program Files\OpenJDK\openjdk-8u282-b08\jre\lib\jfr.jar;C:\Program Files\OpenJDK\openjdk-8u282-b08\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_282-b08"/>
+    <property name="user.name" value="Ben Menda"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\OpenJDK\openjdk-8u282-b08\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Ben Menda\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\BENMEN~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_282"/>
+    <property name="user.dir" value="C:\Users\Ben Menda\eclipse-workspace\FinalProjectAutomationMVN"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\OpenJDK\openjdk-8u282-b08\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\AdoptOpenJDK\jdk-11.0.7.10-hotspot\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Brackets\command;C:\ProgramData\chocolatey\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.3\bin;C:\Program Files\OpenJDK\openjdk-8u282-b08\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Users\Ben Menda\Anaconda3;C:\Users\Ben Menda\Anaconda3\Library\mingw-w64\bin;C:\Users\Ben Menda\Anaconda3\Library\usr\bin;C:\Users\Ben Menda\Anaconda3\Library\bin;C:\Users\Ben Menda\Anaconda3\Scripts;C:\Users\Ben Menda\AppData\Local\Microsoft\WindowsApps;C:\Users\Ben Menda\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.282-b08"/>
+    <property name="java.ext.dirs" value="C:\Program Files\OpenJDK\openjdk-8u282-b08\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="tc01ClickPreview" classname="tests.QuickViewProduct" time="20.633">
+    <system-out><![CDATA[The result if the element is present true
+The expected is 
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (resolved driver for Chrome 90)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Ben Menda\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 35030
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 08, 2021 11:41:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tc01SignInFailed" classname="tests.SignInUserToSystem" time="22.546">
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (resolved driver for Chrome 90)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Ben Menda\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 11541
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 08, 2021 11:42:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tc02SignInFailed[itamar83@gmail.com, 1234567](1)" classname="tests.SignInUserToSystem" time="22.37">
+    <system-out><![CDATA[C:\Users\Ben Menda\eclipse-workspace\FinalProjectAutomationMVN\src\test\resources\data\SignInUsers.xlsx
+]]></system-out>
+  </testcase>
+  <testcase name="tc02SignInFailed[abc@abcdeg.com, 456789](2)" classname="tests.SignInUserToSystem" time="23.814"/>
+  <testcase name="tc02SignInFailed[122322V2221211, 234543](3)" classname="tests.SignInUserToSystem" time="23.514"/>
+  <testcase name="tc02SignInFailed[, ](4)" classname="tests.SignInUserToSystem" time="22.956"/>
+  <testcase name="tc03SignInSuccessfullyToSystem" classname="tests.SignInUserToSystem" time="8.824"/>
+  <testcase name="tc03RemoveProduct" classname="tests.AddFewProducts" time="65.058">
+    <system-out><![CDATA[The actual value 2The expected is 2
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (resolved driver for Chrome 90)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Ben Menda\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 13953
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 08, 2021 11:44:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tc01SendSuccessfullyMail" classname="tests.SendMail" time="4.848">
+    <system-out><![CDATA[The result if the element is present true
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (resolved driver for Chrome 90)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Ben Menda\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 10346
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 08, 2021 11:45:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tc02AddFewProduct" classname="tests.AddProduct" time="61.56">
+    <system-out><![CDATA[The actual value 3The expected is 3
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (resolved driver for Chrome 90)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Ben Menda\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 46031
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 08, 2021 11:45:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tc01AddProduct" classname="tests.AddProduct" time="17.468"/>
+  <testcase name="tc01ReveiDeliveryPage" classname="tests.ReceiveDeliveryPage" time="9.408">
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (resolved driver for Chrome 90)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Ben Menda\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 16606
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 08, 2021 11:47:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tc01BackHome" classname="tests.AccessBackHome" time="5.545">
+    <system-out><![CDATA[The first URL is http://automationpractice.com/index.php
+The Last Urlhttp://automationpractice.com/index.php
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (resolved driver for Chrome 90)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Ben Menda\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 28662
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 08, 2021 11:47:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tc01SortFromLowToHigh" classname="tests.SortingProducts" time="12.445">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at tests.SortingProducts.tc01SortFromLowToHigh(SortingProducts.java:22)
+]]></failure>
+    <system-out><![CDATA[28.98
+50.99
+30.50
+16.40
+26.00
+16.51
+27.00
+THE RESULT IS false
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (resolved driver for Chrome 90)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Ben Menda\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 23003
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 08, 2021 11:47:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tc01ProductTabSelection" classname="tests.ProductTabSelection" time="10.067">
+    <system-out><![CDATA[WOMEN
+DRESSES
+T-SHIRTS
+T-SHIRTS 
+THE RESULT IS true
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (resolved driver for Chrome 90)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Ben Menda\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 43253
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 08, 2021 11:47:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tc02ProductSelection" classname="tests.ProductTabSelection" time="0.116">
+    <system-out><![CDATA[WOMEN
+DRESSES
+T-SHIRTS
+]]></system-out>
+  </testcase>
+  <testcase name="tc01ForgotPasswordSuccess" classname="tests.ForgotPassword" time="25.188">
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (resolved driver for Chrome 90)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Ben Menda\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 48055
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 08, 2021 11:48:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tc01EnterNewMail" classname="tests.EnterNewLetterMail" time="7.075">
+    <failure message="expected [Newsletter : You have successfully subscribed to this newsletter.] but found [Newsletter : This email address is already registered.]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Newsletter : You have successfully subscribed to this newsletter.] but found [Newsletter : This email address is already registered.]
+	at tests.EnterNewLetterMail.tc01EnterNewMail(EnterNewLetterMail.java:18)
+]]></failure>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (resolved driver for Chrome 90)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Ben Menda\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 35372
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 08, 2021 11:48:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tc02EnterWrongMailFormat" classname="tests.EnterNewLetterMail" time="7.129"/>
+  <testcase name="tc03EnterExistMail" classname="tests.EnterNewLetterMail" time="7.686"/>
+  <testcase name="tc01BackToLogin" classname="tests.BackToLoginFromSignIn" time="23.947">
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (resolved driver for Chrome 90)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Ben Menda\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 31280
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 08, 2021 11:49:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tc01CreateUser" classname="tests.CreateUser" time="28.296">
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (resolved driver for Chrome 90)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Ben Menda\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 13349
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 08, 2021 11:49:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tc04CalcProductsPrice" classname="tests.AddProductTestPaymentSum" time="41.079">
+    <system-out><![CDATA[The actual value 61.48The expected is 61.48
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (resolved driver for Chrome 90)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Ben Menda\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 41898
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 08, 2021 11:50:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tc01SearchExistProduct" classname="tests.SearchProduct" time="7.021">
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (resolved driver for Chrome 90)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Ben Menda\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 42486
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 08, 2021 11:51:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tc01SearchNotExistProduct" classname="tests.SearchProduct" time="6.968"/>
+  <testcase name="tc05CheckingRemoveBTN" classname="tests.RemovalOfProduct" time="59.564">
+    <system-out><![CDATA[The actual value 1The expected is 1
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (resolved driver for Chrome 90)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Ben Menda\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 41484
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 08, 2021 11:51:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

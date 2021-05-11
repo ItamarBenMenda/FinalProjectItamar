@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="26" passed="24">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="665716" started-at="2021-05-08T23:41:34 IDT" finished-at="2021-05-08T23:52:40 IDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="665716" started-at="2021-05-08T23:41:34 IDT" finished-at="2021-05-08T23:52:40 IDT">
+      <class name="tests.BackToLoginFromSignIn">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.BackToLoginFromSignIn@5f2606b]" name="setup" is-config="true" duration-ms="7087" started-at="2021-05-08T23:49:15 IDT" finished-at="2021-05-08T23:49:22 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc01BackToLogin()[pri:0, instance:tests.BackToLoginFromSignIn@5f2606b]" name="tc01BackToLogin" duration-ms="23991" started-at="2021-05-08T23:49:22 IDT" finished-at="2021-05-08T23:49:46 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01BackToLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.BackToLoginFromSignIn@5f2606b]" name="tearDown" is-config="true" duration-ms="643" started-at="2021-05-08T23:49:46 IDT" finished-at="2021-05-08T23:49:47 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.BackToLoginFromSignIn -->
+      <class name="tests.SearchProduct">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SearchProduct@2552f2cb]" name="setup" is-config="true" duration-ms="6752" started-at="2021-05-08T23:51:11 IDT" finished-at="2021-05-08T23:51:18 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc01SearchExistProduct()[pri:0, instance:tests.SearchProduct@2552f2cb]" name="tc01SearchExistProduct" duration-ms="7054" started-at="2021-05-08T23:51:18 IDT" finished-at="2021-05-08T23:51:25 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01SearchExistProduct -->
+        <test-method status="PASS" signature="tc01SearchNotExistProduct()[pri:0, instance:tests.SearchProduct@2552f2cb]" name="tc01SearchNotExistProduct" duration-ms="6968" started-at="2021-05-08T23:51:25 IDT" finished-at="2021-05-08T23:51:32 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01SearchNotExistProduct -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SearchProduct@2552f2cb]" name="tearDown" is-config="true" duration-ms="651" started-at="2021-05-08T23:51:32 IDT" finished-at="2021-05-08T23:51:32 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchProduct -->
+      <class name="tests.EnterNewLetterMail">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.EnterNewLetterMail@5b6813df]" name="setup" is-config="true" duration-ms="7902" started-at="2021-05-08T23:48:45 IDT" finished-at="2021-05-08T23:48:52 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="tc01EnterNewMail()[pri:0, instance:tests.EnterNewLetterMail@5b6813df]" name="tc01EnterNewMail" duration-ms="7120" started-at="2021-05-08T23:48:52 IDT" finished-at="2021-05-08T23:49:00 IDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Newsletter : You have successfully subscribed to this newsletter.] but found [Newsletter : This email address is already registered.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Newsletter : You have successfully subscribed to this newsletter.] but found [Newsletter : This email address is already registered.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at tests.EnterNewLetterMail.tc01EnterNewMail(EnterNewLetterMail.java:18)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01EnterNewMail -->
+        <test-method status="PASS" signature="tc02EnterWrongMailFormat()[pri:0, instance:tests.EnterNewLetterMail@5b6813df]" name="tc02EnterWrongMailFormat" duration-ms="7130" started-at="2021-05-08T23:49:00 IDT" finished-at="2021-05-08T23:49:07 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02EnterWrongMailFormat -->
+        <test-method status="PASS" signature="tc03EnterExistMail()[pri:0, instance:tests.EnterNewLetterMail@5b6813df]" name="tc03EnterExistMail" duration-ms="7687" started-at="2021-05-08T23:49:07 IDT" finished-at="2021-05-08T23:49:14 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03EnterExistMail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.EnterNewLetterMail@5b6813df]" name="tearDown" is-config="true" duration-ms="631" started-at="2021-05-08T23:49:14 IDT" finished-at="2021-05-08T23:49:15 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.EnterNewLetterMail -->
+      <class name="tests.CreateUser">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.CreateUser@2b58f754]" name="setup" is-config="true" duration-ms="6776" started-at="2021-05-08T23:49:47 IDT" finished-at="2021-05-08T23:49:54 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc01CreateUser()[pri:0, instance:tests.CreateUser@2b58f754]" name="tc01CreateUser" duration-ms="28334" started-at="2021-05-08T23:49:54 IDT" finished-at="2021-05-08T23:50:22 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01CreateUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CreateUser@2b58f754]" name="tearDown" is-config="true" duration-ms="652" started-at="2021-05-08T23:50:22 IDT" finished-at="2021-05-08T23:50:23 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CreateUser -->
+      <class name="tests.RemovalOfProduct">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.RemovalOfProduct@33352f32]" name="setup" is-config="true" duration-ms="7583" started-at="2021-05-08T23:51:32 IDT" finished-at="2021-05-08T23:51:40 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc05CheckingRemoveBTN()[pri:1, instance:tests.RemovalOfProduct@33352f32]" name="tc05CheckingRemoveBTN" duration-ms="59613" started-at="2021-05-08T23:51:40 IDT" finished-at="2021-05-08T23:52:39 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05CheckingRemoveBTN -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.RemovalOfProduct@33352f32]" name="tearDown" is-config="true" duration-ms="694" started-at="2021-05-08T23:52:39 IDT" finished-at="2021-05-08T23:52:40 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RemovalOfProduct -->
+      <class name="tests.AccessBackHome">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AccessBackHome@6865c751]" name="setup" is-config="true" duration-ms="6356" started-at="2021-05-08T23:47:23 IDT" finished-at="2021-05-08T23:47:30 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc01BackHome()[pri:0, instance:tests.AccessBackHome@6865c751]" name="tc01BackHome" duration-ms="5581" started-at="2021-05-08T23:47:30 IDT" finished-at="2021-05-08T23:47:35 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01BackHome -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AccessBackHome@6865c751]" name="tearDown" is-config="true" duration-ms="1159" started-at="2021-05-08T23:47:35 IDT" finished-at="2021-05-08T23:47:36 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AccessBackHome -->
+      <class name="tests.AddProductTestPaymentSum">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AddProductTestPaymentSum@3ebff828]" name="setup" is-config="true" duration-ms="6541" started-at="2021-05-08T23:50:23 IDT" finished-at="2021-05-08T23:50:29 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc04CalcProductsPrice()[pri:1, instance:tests.AddProductTestPaymentSum@3ebff828]" name="tc04CalcProductsPrice" duration-ms="41119" started-at="2021-05-08T23:50:29 IDT" finished-at="2021-05-08T23:51:10 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04CalcProductsPrice -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddProductTestPaymentSum@3ebff828]" name="tearDown" is-config="true" duration-ms="661" started-at="2021-05-08T23:51:10 IDT" finished-at="2021-05-08T23:51:11 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddProductTestPaymentSum -->
+      <class name="tests.SignInUserToSystem">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SignInUserToSystem@1ca25c47]" name="setup" is-config="true" duration-ms="6799" started-at="2021-05-08T23:42:04 IDT" finished-at="2021-05-08T23:42:11 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc01SignInFailed()[pri:0, instance:tests.SignInUserToSystem@1ca25c47]" name="tc01SignInFailed" duration-ms="22594" started-at="2021-05-08T23:42:11 IDT" finished-at="2021-05-08T23:42:33 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01SignInFailed -->
+        <test-method status="PASS" signature="tc02SignInFailed(java.lang.String, java.lang.String)[pri:0, instance:tests.SignInUserToSystem@1ca25c47]" name="tc02SignInFailed" duration-ms="22369" started-at="2021-05-08T23:42:35 IDT" description="Using Different Mail of users" data-provider="getDataFromExcel" finished-at="2021-05-08T23:42:57 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[itamar83@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02SignInFailed -->
+        <test-method status="PASS" signature="tc02SignInFailed(java.lang.String, java.lang.String)[pri:0, instance:tests.SignInUserToSystem@1ca25c47]" name="tc02SignInFailed" duration-ms="23814" started-at="2021-05-08T23:42:57 IDT" description="Using Different Mail of users" data-provider="getDataFromExcel" finished-at="2021-05-08T23:43:21 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@abcdeg.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02SignInFailed -->
+        <test-method status="PASS" signature="tc02SignInFailed(java.lang.String, java.lang.String)[pri:0, instance:tests.SignInUserToSystem@1ca25c47]" name="tc02SignInFailed" duration-ms="23514" started-at="2021-05-08T23:43:21 IDT" description="Using Different Mail of users" data-provider="getDataFromExcel" finished-at="2021-05-08T23:43:45 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[122322V2221211]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[234543]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02SignInFailed -->
+        <test-method status="PASS" signature="tc02SignInFailed(java.lang.String, java.lang.String)[pri:0, instance:tests.SignInUserToSystem@1ca25c47]" name="tc02SignInFailed" duration-ms="22955" started-at="2021-05-08T23:43:45 IDT" description="Using Different Mail of users" data-provider="getDataFromExcel" finished-at="2021-05-08T23:44:08 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02SignInFailed -->
+        <test-method status="PASS" signature="tc03SignInSuccessfullyToSystem()[pri:0, instance:tests.SignInUserToSystem@1ca25c47]" name="tc03SignInSuccessfullyToSystem" duration-ms="8823" started-at="2021-05-08T23:44:08 IDT" finished-at="2021-05-08T23:44:16 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03SignInSuccessfullyToSystem -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SignInUserToSystem@1ca25c47]" name="tearDown" is-config="true" duration-ms="676" started-at="2021-05-08T23:44:16 IDT" finished-at="2021-05-08T23:44:17 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SignInUserToSystem -->
+      <class name="tests.QuickViewProduct">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.QuickViewProduct@69c79f09]" name="setup" is-config="true" duration-ms="7956" started-at="2021-05-08T23:41:34 IDT" finished-at="2021-05-08T23:41:42 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc01ClickPreview()[pri:0, instance:tests.QuickViewProduct@69c79f09]" name="tc01ClickPreview" duration-ms="20777" started-at="2021-05-08T23:41:42 IDT" finished-at="2021-05-08T23:42:03 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01ClickPreview -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.QuickViewProduct@69c79f09]" name="tearDown" is-config="true" duration-ms="654" started-at="2021-05-08T23:42:03 IDT" finished-at="2021-05-08T23:42:04 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.QuickViewProduct -->
+      <class name="tests.SendMail">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SendMail@533b266e]" name="setup" is-config="true" duration-ms="5829" started-at="2021-05-08T23:45:29 IDT" finished-at="2021-05-08T23:45:35 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc01SendSuccessfullyMail()[pri:0, instance:tests.SendMail@533b266e]" name="tc01SendSuccessfullyMail" duration-ms="4884" started-at="2021-05-08T23:45:35 IDT" finished-at="2021-05-08T23:45:40 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01SendSuccessfullyMail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SendMail@533b266e]" name="tearDown" is-config="true" duration-ms="672" started-at="2021-05-08T23:45:40 IDT" finished-at="2021-05-08T23:45:40 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SendMail -->
+      <class name="tests.AddFewProducts">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AddFewProducts@5fcacc0]" name="setup" is-config="true" duration-ms="6129" started-at="2021-05-08T23:44:17 IDT" finished-at="2021-05-08T23:44:23 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc03RemoveProduct()[pri:1, instance:tests.AddFewProducts@5fcacc0]" name="tc03RemoveProduct" duration-ms="65188" started-at="2021-05-08T23:44:23 IDT" finished-at="2021-05-08T23:45:28 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03RemoveProduct -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddFewProducts@5fcacc0]" name="tearDown" is-config="true" duration-ms="661" started-at="2021-05-08T23:45:28 IDT" finished-at="2021-05-08T23:45:29 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddFewProducts -->
+      <class name="tests.AddProduct">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AddProduct@6d1d4d7]" name="setup" is-config="true" duration-ms="6051" started-at="2021-05-08T23:45:40 IDT" finished-at="2021-05-08T23:45:47 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc02AddFewProduct()[pri:1, instance:tests.AddProduct@6d1d4d7]" name="tc02AddFewProduct" duration-ms="61607" started-at="2021-05-08T23:45:47 IDT" finished-at="2021-05-08T23:46:48 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02AddFewProduct -->
+        <test-method status="PASS" signature="tc01AddProduct()[pri:2, instance:tests.AddProduct@6d1d4d7]" name="tc01AddProduct" duration-ms="17468" started-at="2021-05-08T23:46:48 IDT" finished-at="2021-05-08T23:47:06 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01AddProduct -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AddProduct@6d1d4d7]" name="tearDown" is-config="true" duration-ms="655" started-at="2021-05-08T23:47:06 IDT" finished-at="2021-05-08T23:47:06 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddProduct -->
+      <class name="tests.SortingProducts">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SortingProducts@62679465]" name="setup" is-config="true" duration-ms="6096" started-at="2021-05-08T23:47:36 IDT" finished-at="2021-05-08T23:47:42 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="tc01SortFromLowToHigh()[pri:0, instance:tests.SortingProducts@62679465]" name="tc01SortFromLowToHigh" duration-ms="12468" started-at="2021-05-08T23:47:42 IDT" finished-at="2021-05-08T23:47:55 IDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at tests.SortingProducts.tc01SortFromLowToHigh(SortingProducts.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01SortFromLowToHigh -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SortingProducts@62679465]" name="tearDown" is-config="true" duration-ms="667" started-at="2021-05-08T23:47:55 IDT" finished-at="2021-05-08T23:47:56 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SortingProducts -->
+      <class name="tests.ReceiveDeliveryPage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.ReceiveDeliveryPage@89ff02e]" name="setup" is-config="true" duration-ms="6816" started-at="2021-05-08T23:47:06 IDT" finished-at="2021-05-08T23:47:13 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc01ReveiDeliveryPage()[pri:0, instance:tests.ReceiveDeliveryPage@89ff02e]" name="tc01ReveiDeliveryPage" duration-ms="9450" started-at="2021-05-08T23:47:13 IDT" finished-at="2021-05-08T23:47:23 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01ReveiDeliveryPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.ReceiveDeliveryPage@89ff02e]" name="tearDown" is-config="true" duration-ms="661" started-at="2021-05-08T23:47:23 IDT" finished-at="2021-05-08T23:47:23 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ReceiveDeliveryPage -->
+      <class name="tests.ProductTabSelection">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.ProductTabSelection@6a988392]" name="setup" is-config="true" duration-ms="5962" started-at="2021-05-08T23:47:56 IDT" finished-at="2021-05-08T23:48:02 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc01ProductTabSelection()[pri:0, instance:tests.ProductTabSelection@6a988392]" name="tc01ProductTabSelection" duration-ms="10104" started-at="2021-05-08T23:48:02 IDT" finished-at="2021-05-08T23:48:12 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01ProductTabSelection -->
+        <test-method status="PASS" signature="tc02ProductSelection()[pri:0, instance:tests.ProductTabSelection@6a988392]" name="tc02ProductSelection" duration-ms="115" started-at="2021-05-08T23:48:12 IDT" finished-at="2021-05-08T23:48:12 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02ProductSelection -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.ProductTabSelection@6a988392]" name="tearDown" is-config="true" duration-ms="631" started-at="2021-05-08T23:48:12 IDT" finished-at="2021-05-08T23:48:12 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ProductTabSelection -->
+      <class name="tests.ForgotPassword">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.ForgotPassword@1d71006f]" name="setup" is-config="true" duration-ms="6269" started-at="2021-05-08T23:48:12 IDT" finished-at="2021-05-08T23:48:19 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc01ForgotPasswordSuccess()[pri:0, instance:tests.ForgotPassword@1d71006f]" name="tc01ForgotPasswordSuccess" duration-ms="25225" started-at="2021-05-08T23:48:19 IDT" finished-at="2021-05-08T23:48:44 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01ForgotPasswordSuccess -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.ForgotPassword@1d71006f]" name="tearDown" is-config="true" duration-ms="684" started-at="2021-05-08T23:48:44 IDT" finished-at="2021-05-08T23:48:45 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ForgotPassword -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

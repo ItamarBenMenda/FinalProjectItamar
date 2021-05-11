@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="tests.QuickViewProduct"/>
+      <class name="tests.SignInUserToSystem"/>
+      <class name="tests.AddFewProducts"/>
+      <class name="tests.SendMail"/>
+      <class name="tests.BaseTest"/>
+      <class name="tests.AddProduct"/>
+      <class name="tests.ReceiveDeliveryPage"/>
+      <class name="tests.AccessBackHome"/>
+      <class name="tests.SortingProducts"/>
+      <class name="tests.ProductTabSelection"/>
+      <class name="tests.ForgotPassword"/>
+      <class name="tests.EnterNewLetterMail"/>
+      <class name="tests.BackToLoginFromSignIn"/>
+      <class name="tests.CreateUser"/>
+      <class name="tests.AddProductTestPaymentSum"/>
+      <class name="tests.SearchProduct"/>
+      <class name="tests.RemovalOfProduct"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 26, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 667.479 s <<< FAILURE! - in TestSuite
+tests.SortingProducts.tc01SortFromLowToHigh  Time elapsed: 12.445 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at tests.SortingProducts.tc01SortFromLowToHigh(SortingProducts.java:22)
+
+tests.EnterNewLetterMail.tc01EnterNewMail  Time elapsed: 7.075 s  <<< FAILURE!
+java.lang.AssertionError: expected [Newsletter : You have successfully subscribed to this newsletter.] but found [Newsletter : This email address is already registered.]
+	at tests.EnterNewLetterMail.tc01EnterNewMail(EnterNewLetterMail.java:18)
+

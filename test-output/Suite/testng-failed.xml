@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.BackToLoginFromSignIn">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="tc01BackToLogin"/>
+        </methods>
+      </class> <!-- tests.BackToLoginFromSignIn -->
+      <class name="tests.RemovalOfProduct">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tc05CheckingRemoveBTN"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.RemovalOfProduct -->
+      <class name="tests.AddProductTestPaymentSum">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tc04CalcProductsPrice"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.AddProductTestPaymentSum -->
+      <class name="tests.ProductTabSelection">
+        <methods>
+          <include name="tc01ProductTabSelection"/>
+          <include name="tc02ProductSelection"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.ProductTabSelection -->
+      <class name="tests.AddFewProducts">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="tc03RemoveProduct"/>
+        </methods>
+      </class> <!-- tests.AddFewProducts -->
+      <class name="tests.SignInUserToSystem">
+        <methods>
+          <include name="tc01SignInSuccessfullyToSystem"/>
+          <include name="tearDown"/>
+          <include name="tc02SignInFailed"/>
+          <include name="tc03SignInFailed" invocation-numbers="0 1 2 3"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.SignInUserToSystem -->
+      <class name="tests.ReceiveDeliveryPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tc01ReveiDeliveryPage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.ReceiveDeliveryPage -->
+      <class name="tests.SearchProduct">
+        <methods>
+          <include name="tc01SearchExistProduct"/>
+          <include name="tc01SearchNotExistProduct"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.SearchProduct -->
+      <class name="tests.SendMail">
+        <methods>
+          <include name="tc01SendSuccessfullyMail"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.SendMail -->
+      <class name="tests.ForgotPassword">
+        <methods>
+          <include name="tc01ForgotPasswordSuccess"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.ForgotPassword -->
+      <class name="tests.CreateUser">
+        <methods>
+          <include name="tc01CreateUser"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CreateUser -->
+      <class name="tests.AccessBackHome">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tc01BackHome"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.AccessBackHome -->
+      <class name="tests.AddProduct">
+        <methods>
+          <include name="tc01AddProduct"/>
+          <include name="tearDown"/>
+          <include name="tc02AddFewProduct"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.AddProduct -->
+      <class name="tests.SortingProducts">
+        <methods>
+          <include name="tc01SortFromLowToHigh"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.SortingProducts -->
+      <class name="tests.EnterNewLetterMail">
+        <methods>
+          <include name="tc02EnterWrongMailFormat"/>
+          <include name="tc03EnterExistMail"/>
+          <include name="tearDown"/>
+          <include name="tc01EnterNewMail"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.EnterNewLetterMail -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
